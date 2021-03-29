@@ -119,7 +119,7 @@ No deployment setup for this project yet.
 [config_debug_img]: ./docs/images/config_debug_example.png
 [jupytext_percent_img]: ./docs/images/jupytext_percent_example.png
 
-[malaysia_bank_card_dashboard_repo]: https://github.com/lioneltayyd/malaysia_bank_card_dashboard
+[malaysia_bank_card_dashboard_repo]: https://github.com/lioneltayyd/malaysia-bank-card-dashboard
 
 [prefect_docs_url]: https://docs.prefect.io/
 [selenium_docs_url]: https://selenium-python.readthedocs.io/

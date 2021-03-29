@@ -1,20 +1,25 @@
-import logging
+import os, logging
 from logging import Logger, FileHandler, StreamHandler
 from typing import Text, Tuple
+
 
 
 # --------------------------------------------------------------
 # Logger Setup.
 # --------------------------------------------------------------
 
-# Logging configuration. 
-DEBUG = True
+# Logging config. 
+DEBUG = False
 LOG_LEVEL = logging.DEBUG if DEBUG else logging.WARNING 
 LOG_FORMATTER = logging.Formatter("[%(asctime)s] %(levelname)s – %(name)s | %(message)s")
 
 
 # Logger setup. 
 def setup_logger(logger: Logger, log_filename: Text) -> Tuple[Logger, FileHandler, StreamHandler]: 
+    # Create a new folder for the log filename if it doesn't exist. 
+    if not os.path.exists('logs/runtime'): 
+        os.makedirs('logs/runtime')
+
     logger.setLevel(LOG_LEVEL)
 
     # Log config for output in the log file. 
