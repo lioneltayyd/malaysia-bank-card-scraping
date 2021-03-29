@@ -1,38 +1,40 @@
-# Malaysia Credit Cards Scraper__
+# __Malaysia Credit Cards Scraper__
+
+
 
 ## __Project Purpose__
 
 To scrape cards data and analyse the credit cards market. 
 
-</br>
+
 
 ## __Main Tools__
 
 Tools | Description
---- | ---
+:--- | :---
 [selenium][selenium_docs_url] | For web scraping. 
 [prefect][prefect_docs_url] | For building data pipeline and dashboard. 
 [pandas][pandas_docs_url] | For data processing. 
 [pipenv][pipenv_docs_url] | For managing dependencies. 
 
-</br> 
+
 
 ## __Data Architecture Overview__
 
--   This project focuses on the __Prefect Pipeline__ section. It's associated with [Bank Card Dashboard Repo][malaysia_bank_card_dashboard_repo]. 
+This project focuses on the __Prefect Pipeline__ section. It's associated with [Bank Card Dashboard Repo][malaysia_bank_card_dashboard_repo]. 
 
-    ![Project Architecture Diagram][architecture_overview_img] 
+![Project Architecture Diagram][architecture_overview_img] 
 
--   The following diagram shows the flow of the pipeline. 
+The following diagram shows the flow of the pipeline. 
 
-    ![Prefect Pipeline Flow Diagram][pipeline_flow_img] 
+![Prefect Pipeline Flow Diagram][pipeline_flow_img] 
 
-</br> 
+
 
 ## __Folder Structure__
 
 File / Folder Name | Description
---- | ---
+:--- | :---
 autoprocess_data | For keeping custom python modules related to data processing. 
 autoscrape_data | For keeping custom python modules related to scraping. 
 config | For configuration. It encompasses 3 files. `config_logger` is for logger, `config_vars` is for namings, `config` is for other general configuration. 
@@ -42,7 +44,7 @@ logs | For storing the log info.
 sh | For running bash script on Mac. 
 pipfile | For setting up the virtual environment and tracking all the installed dependencies. 
 
-</br> 
+
 
 ## __Project Setup__
 
@@ -66,7 +68,7 @@ pipfile | For setting up the virtual environment and tracking all the installed 
 
 1.  Try import specific library and check the version to see if it's installed. 
 
-</br> 
+
 
 ## __Code Running Guide__
 
@@ -88,13 +90,13 @@ pipfile | For setting up the virtual environment and tracking all the installed 
       python3 run_pipeline.py
       ```
 
-</br> 
+
 
 ## __Deployment Guide__
 
 No deployment setup for this project yet. 
 
-</br>
+
 
 ## __Debugging & Testing__ 
 
