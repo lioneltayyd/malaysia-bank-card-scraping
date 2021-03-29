@@ -20,7 +20,7 @@ from config.config import (
     REWARD_POINTS_DF_FILEPATH, 
     REWARD_POINTS_SAVE_DIR, 
 )
-from config.config_vars import (
+from config.config_naming import (
     DF_REWARD_CAT, 
     DF_IMG, 
     DF_BANK, 

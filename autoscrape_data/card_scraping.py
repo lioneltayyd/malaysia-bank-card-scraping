@@ -23,7 +23,7 @@ from config.config import (
     CARD_DF_FILEPATH, 
     DF_CARD_VERSION, 
 )
-from config.config_vars import (
+from config.config_naming import (
     DF_IMG, 
     DF_REQUIRED_INC, 
     DF_COST_FEE, 

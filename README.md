@@ -37,7 +37,7 @@ File / Folder Name | Description
 :--- | :---
 autoprocess_data | For keeping custom python modules related to data processing. 
 autoscrape_data | For keeping custom python modules related to scraping. 
-config | For configuration. It encompasses 3 files. `config_logger` is for logger, `config_vars` is for namings, `config` is for other general configuration. 
+config | For configuration. It encompasses 3 files. `config_logger` is for logger, `config_naming` is for namings, `config` is for other general configuration. 
 result_config | For caching output when running `Prefect` pipeline. 
 docs | For storing files, data, and documents. 
 logs | For storing the log info. 
@@ -117,7 +117,6 @@ No deployment setup for this project yet.
 [pipeline_flow_img]: ./docs/images/pipeline_dag.png
 [config_rate_limit_img]: ./docs/images/config_rate_limit_example.png
 [config_debug_img]: ./docs/images/config_debug_example.png
-[search_img]: ./docs/images/search_example.png
 [jupytext_percent_img]: ./docs/images/jupytext_percent_example.png
 
 [malaysia_bank_card_dashboard_repo]: https://github.com/lioneltayyd/malaysia_bank_card_dashboard
